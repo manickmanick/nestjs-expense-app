@@ -14,7 +14,7 @@ export const data: Data = {
       type: ReportType.EXPENSE,
     },
     {
-      id: 'dnjdjd',
+      id: '1',
       source: 'dd',
       amount: 10,
       created_at: new Date(),
