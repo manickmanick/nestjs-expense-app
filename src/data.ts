@@ -28,7 +28,7 @@ interface Data {
   report: {
     id: string;
     source: string;
-    amount: number;
+    amount: number | string;
     created_at: Date;
     updated_at: Date;
     type: ReportType.EXPENSE | ReportType.INCOME;
